@@ -6,7 +6,10 @@ preparation for terraform asscoiate
 
 1. **Authentication & Autorization**
 
-we need to authenticate to AWS, using credentials access and secret keys. we can do it in 2 ways
+we need to authenticate to AWS, using credentials access and secret keys.
+Recommend to create a new user user  in the IAM Service. for demo purpose add the "AdministratorAccess" permission to that user.
+
+we can do it in 2 ways to authenticate to AWS.
 - create default config and credentials files using aws-cli, so that terraform can also use it. **$HOME/.aws**
 ```bash
 aws configure
