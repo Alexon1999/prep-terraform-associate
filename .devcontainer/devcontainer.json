@@ -1,0 +1,21 @@
+{
+    "name": "Terraform DevContainer",
+    "image": "mcr.microsoft.com/devcontainers/base:ubuntu",
+    "features": {
+      "ghcr.io/devcontainers/features/docker-in-docker:2": {}
+    },
+    "customizations": {
+      "vscode": {
+        "extensions": [
+          "hashicorp.terraform",
+          "ms-azuretools.vscode-docker",
+          "GitHub.copilot"
+        ]
+      }
+    },
+    "postCreateCommand": "sh .devcontainer/setup.sh",
+    "mounts": [
+      "source=/var/run/docker.sock,target=/var/run/docker.sock,type=bind"
+    ]
+  }
+  
