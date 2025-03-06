@@ -38,5 +38,5 @@ terraform destroy
 
 # Source
 
-https://www.udemy.com/course/terraform-beginner-to-advanced/
-https://github.com/zealvora/terraform-beginner-to-advanced-resource
+- [https://www.udemy.com/course/terraform-beginner-to-advanced/](https://www.udemy.com/course/terraform-beginner-to-advanced/)
+- [https://github.com/zealvora/terraform-beginner-to-advanced-resource](https://github.com/zealvora/terraform-beginner-to-advanced-resource)
