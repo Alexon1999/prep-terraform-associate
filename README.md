@@ -1,5 +1,6 @@
 # prep-terraform-associate
-preparation for terraform asscoiate
+
+preparation for terraform asscoiate certificate
 
 
 ## We use AWS as our lab
