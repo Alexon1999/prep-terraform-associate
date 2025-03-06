@@ -30,3 +30,13 @@ terraform plan
 terraform apply -auto-approve
 terraform destroy
 ```
+
+<br/>
+<br/>
+
+---
+
+# Source
+
+https://www.udemy.com/course/terraform-beginner-to-advanced/
+https://github.com/zealvora/terraform-beginner-to-advanced-resource
